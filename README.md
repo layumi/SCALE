@@ -19,8 +19,8 @@ Qianli Ma, Shunsuke Saito, Jinlong Yang, Siyu Tang, and Michael J. Black <br>
 - First, in the folder of this SCALE repository, run the following commands to create a new virtual environment and install dependencies:
 
   ```bash
-  python3 -m venv $HOME/.virtualenvs/SCALE
-  source $HOME/.virtualenvs/SCALE/bin/activate
+  conda create --name SCALE python=3.6
+  conda activate SCALE
   pip install -U pip setuptools
   pip install -r requirements.txt
   mkdir checkpoints
